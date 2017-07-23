@@ -1,0 +1,47 @@
+// Base Style
+
+* {
+  outline-style: none !important;
+}
+
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+}
+
+html [type="button"],
+[type="reset"],
+[type="submit"] {
+  appearance: none;
+  -webkit-appearance: none;
+}
+
+body {
+  font-weight: $font-weight--normal;
+  font-family: "Helvetica Neue", Helvetica, Arial, "Open Sans", "open-sans";
+  -webkit-font-smoothing: antialiased;
+  -moz-font-smoothing: antialiased;
+}
+
+// lists
+ul,
+ol {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+html,
+body {
+  display: block;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  max-height: 100vh;
+  overflow: hidden;
+  font-size: 1em;
+  font-family: "Helvetica Neue", Helvetica, Arial, "Open Sans", "open-sans",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+}

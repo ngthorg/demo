@@ -1,0 +1,12 @@
+$bg--white: rgba(255, 255, 255, 0.96);
+
+.bg--white {
+  background: $bg--white;
+}
+
+.navbar {
+  .ion-ios-search {
+    font-size: em(25px);
+    cursor: pointer;
+  }
+}

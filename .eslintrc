@@ -1,0 +1,38 @@
+parser: 'babel-eslint'
+
+extends:
+  - airbnb
+
+plugins:
+  - react
+  - jasmine
+
+globals:
+  window: true
+
+ecmaFeatures:
+  jsx: true
+  experimentalObjectRestSpread: true
+
+env:
+  es6: true
+  node: true
+  browser: true
+  jasmine: true
+  jest: true
+
+rules:
+  radix: 0
+  arrow-parens: 0
+  no-underscore-dangle: 0
+  global-require: 0
+  no-param-reassign: 0
+
+  react/sort-comp: 0
+  react/no-string-refs: 0
+  react/jsx-filename-extension: [1, { "extensions": [".js", ".jsx"] }]
+
+  react/forbid-prop-types: 0
+  react/no-unused-prop-types: 0
+  react/require-default-props: 0
+  react/no-array-index-key: 0

@@ -1,0 +1,23 @@
+header {
+  padding: em(50px) 0;
+  position: fixed;
+  top: 0;
+  left: 0;
+  display: flex;
+  flex-flow: row nowrap;
+  align-items: center;
+  height: 62px;
+  width: 100%;
+  z-index: 999;
+
+  a {
+    margin-right: 1.5rem;
+    color: $text-base;
+    text-decoration: none;
+    font-weight: 500;
+
+    &.active {
+      text-decoration: line-through;
+    }
+  }
+}

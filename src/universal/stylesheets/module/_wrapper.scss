@@ -1,0 +1,27 @@
+#root,
+.wrapper {
+  display: block;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  max-height: 100vh;
+  overflow: hidden;
+  font-size: 1em;
+  font-family: "Helvetica Neue", Helvetica, Arial, "Open Sans", "open-sans",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+}
+
+.wrapper {
+  display: flex;
+  flex-flow: column;
+  flex: 1;
+  height: 100%;
+  background: #252b33;
+}
+
+main {
+  position: relative;
+  display: flex;
+  flex: 1;
+}
